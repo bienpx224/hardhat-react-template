@@ -34,8 +34,12 @@ const getInfuraURL = (network) => {
  * @type import('hardhat/config').HardhatUserConfig
  */
 module.exports = {
-  defaultNetwork: 'hardhat',
+  defaultNetwork: 'rinkeby',
   networks: {
+    ganache: {
+      url: "http://127.0.0.1:7545",
+      accounts: ["0a78305df389d93ee0d7e8cb4a49f3e5eb63af004f99f009a9b24c3750314360"]
+    },
     hardhat: {
       accounts: {
         mnemonic: MNEMONIC,

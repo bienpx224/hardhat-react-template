@@ -35,6 +35,8 @@ export const Greeter = () => {
   return (
     <div>
       <div>ChainId: {chainId}</div>
+      <div>Account: {account}</div>
+      <div>Active: {active}</div>
       <div>
         Message in the Greeter smart contract: <strong>{message}</strong>
       </div>

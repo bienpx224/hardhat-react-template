@@ -7,6 +7,7 @@ import Button from 'react-bootstrap/Button';
 
 export const injectedConnector = new InjectedConnector({
   supportedChainIds: [
+    1337, // ganache
     1, // Mainet
     3, // Ropsten
     4, // Rinkeby

@@ -20,14 +20,17 @@ Install:
 
 ```
 yarn install
+npm i
 ```
 
 ## Commands
 
-Compile:
+Compile:  You can replace yarn by npm. the scripts has been defined in package.json
 
 ```
 yarn compile
+or
+npx hardhat compile
 ```
 
 Run Hardhat Network:
@@ -52,6 +55,8 @@ Test on Rinkeby test network:
 
 ```
 yarn test:rinkeby
+or 
+npm test:rinkeby
 ```
 
 Test including gas-report:
